@@ -52,20 +52,23 @@ export default{
             <img src="../assets/img/buy-comics-shop-locator.png"   alt="">
             <span class="text-uppercase text-light">comic shop locator</span>
         </div>
-        <div id="last" class="d-flex justify-content-center align-items-center" >
-            <img class="ms-3" src="../assets/img/buy-dc-power-visa.svg" alt="">
+        <div id="last" class="d-flex justify-content-start align-items-center" >
+            <img id="lastImg" src="../assets/img/buy-dc-power-visa.svg" alt="">
             <span style="" class="text-uppercase text-light ">dc power visa</span>
         </div>
     </div>
 </template>
 <style lang="scss" scoped >
 #center{height: 150px;
-    img{
-        scale: .5;
-    }
+}
+img{
+    scale: .5;
 }
 #last{
-    width: 250px;
+    width: 300px;
+}
+#lastImg{
+    width: 50%;
 }
 
 
