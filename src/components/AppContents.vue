@@ -4,11 +4,9 @@ export default{
   name: 'AppContents'
 }
 
-
-
 </script>
 <template>
-    <h2>--->Contents goes here<---</h2>
+    <h2>--- Content goes here ---</h2>
 </template>
 <style lang="scss" scoped >
 h2{

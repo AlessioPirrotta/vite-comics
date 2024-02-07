@@ -1,11 +1,13 @@
 <script >
 import AppHeader from './components/AppHeader.vue'
 import AppContents from './components/AppContents.vue'
+import AppShop from './components/AppShop.vue'
 
 export default{
   components:{
     AppHeader,
-    AppContents
+    AppContents,
+    AppShop
   }
 }
 </script>
@@ -13,6 +15,7 @@ export default{
 <template>
   <AppHeader/>
   <AppContents/>
+  <AppShop/>
 </template>
 
 <style lang="scss" >
