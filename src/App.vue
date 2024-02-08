@@ -3,13 +3,15 @@ import AppHeader from './components/AppHeader.vue'
 import AppContents from './components/AppContents.vue'
 import AppShop from './components/AppShop.vue'
 import AppMain from './components/AppMain.vue'
+import AppFooter from './components/AppFooter.vue'
 
 export default{
   components:{
     AppHeader,
     AppContents,
     AppShop,
-    AppMain
+    AppMain,
+    AppFooter
   }
 }
 </script>
@@ -19,6 +21,7 @@ export default{
   <AppContents/>
   <AppShop/>
   <AppMain/>
+  <AppFooter/>
 </template>
 
 <style lang="scss" >
