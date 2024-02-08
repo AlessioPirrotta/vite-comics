@@ -60,6 +60,7 @@ export default{
 </template>
 <style lang="scss" scoped >
 #center{height: 150px;
+    width: 101%;
 }
 img{
     scale: .5;

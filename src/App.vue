@@ -4,6 +4,7 @@ import AppContents from './components/AppContents.vue'
 import AppShop from './components/AppShop.vue'
 import AppMain from './components/AppMain.vue'
 import AppFooter from './components/AppFooter.vue'
+import AppJumbo from './components/AppJumbo.vue'
 
 export default{
   components:{
@@ -11,14 +12,15 @@ export default{
     AppContents,
     AppShop,
     AppMain,
-    AppFooter
+    AppFooter,
+    AppJumbo
   }
 }
 </script>
 
 <template>
   <AppHeader/>
-  <AppContents/>
+  <AppJumbo/>
   <AppShop/>
   <AppMain/>
   <AppFooter/>

@@ -68,8 +68,8 @@ export default{
     background-repeat: no-repeat;
     background-size: cover;
     height: 370px;
-    width: 100.45%;
-    margin: -8px;
+    width: 101%;
+   
     color: white;
     padding-left: 300px;
     padding-top: 50px;

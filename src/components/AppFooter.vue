@@ -25,11 +25,12 @@ footer{
     padding: 40px;
     background-color: #303030;
     height: 120px;
+    width: 101%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     button{
-        padding: 10PX;
+        padding: 10px;
         height: 50px;
         background-color: #303030;
         border: 2px solid #0d6efd ;

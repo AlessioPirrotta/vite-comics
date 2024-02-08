@@ -31,8 +31,9 @@ data() {
 
 #main{
     background-color: white;
+    width: 101%;
     height: 120px;
-    margin-top: 50px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
